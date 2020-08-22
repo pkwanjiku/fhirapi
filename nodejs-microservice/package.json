@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-microservice",
+  "version": "1.0.0",
+  "description": "Running a nodejs application with mysql database as microservices using docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahoazure/getting-started-docker-mysql-nodejs.git"
+  },
+  "keywords": [
+    "docker",
+    "mysql-docker",
+    "nodejs-docker",
+    "microservice"
+  ],
+  "author": "ahoazure@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smburu/healthix-passthrough-mediator-mysql-nodejs/issues"
+  },
+  "homepage": "https://github.com/smburu/healthix-passthrough-mediator-mysql-nodejs#readme",
+  "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "babel-node": "0.0.1-security",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "openhim-mediator-utils": "^0.2.3"
+  }
+}
